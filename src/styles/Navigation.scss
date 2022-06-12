@@ -1,0 +1,98 @@
+$text-color: hsl(0, 0%, 100%);
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1440px;
+
+//Header main styles
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+
+  //Desktop Styles
+  .header__wrapper {
+    display: flex;
+    padding-top: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+
+    .hamburger__logo {
+      position: absolute;
+    }
+
+    .header__logo__container {
+      display: flex;
+      justify-content: center;
+
+      .header__logo {
+        color: $text-color;
+        height: 14px;
+      }
+    }
+    .header__nav {
+      display: flex;
+      margin-left: 57px;
+
+      .header__nav__ul {
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        color: $text-color;
+        min-width: 370px;
+        justify-content: space-between;
+
+        
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-desktop) {
+    .header__wrapper {
+      padding-top: 48px;
+      padding-left: 48px;
+      padding-right: 48px;
+      .header__logo__container {
+        width: 100%;
+      }
+      .header__nav{
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    .header__wrapper { 
+      
+      .hamburger__logo {
+        display: none;
+      }
+    
+    }
+  }
+
+  //Dropdown styles -- when user clicks on hamburger icon
+  //MobileNav -- Styles
+
+  .header__dropdown {
+    position: absolute;
+    width: 100%;
+    min-height: 110px;
+    background-color: $text-color;
+
+    .header__nav--dropdown {
+      padding-top: 48px;
+      padding-left: 48px;
+      padding-right: 48px;
+
+      .header__menu-item--dropdown {
+        transition: ease 0.5s;
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 66px;
+    }
+  }
+}

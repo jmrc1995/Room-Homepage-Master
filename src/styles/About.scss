@@ -1,0 +1,47 @@
+@use "carousel";
+$breakpoint-desktop: 1440px;
+.about__main__container {
+  flex: 1;
+  // display: block;
+  .about_image {
+    width: 100%;
+  }
+  .about_content {
+    @include carousel.main;
+    width: inherit;
+    // position: relative;
+
+    .about_header {
+      @include carousel.header;
+      font-size: 14px;
+      letter-spacing: 5.83px;
+      white-space: normal;
+    }
+
+    .about_body {
+      @include carousel.text;
+    }
+    // .about_body{
+
+    // }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .about__main__container {
+   display: flex;
+  
+   
+
+    .about_image {
+      width: 100%;
+      object-fit: cover;
+      // height: 100%;
+    }
+    .about_content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
