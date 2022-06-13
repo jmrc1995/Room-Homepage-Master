@@ -12,10 +12,6 @@ Users should be able to:
 
 ![](./src/images/desktop-image-hero-1.jpg)
 
-
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: https://github.com/jmrc1995/Room-Homepage-Master
