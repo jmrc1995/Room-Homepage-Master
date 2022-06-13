@@ -10,20 +10,12 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to:
 
-``` View the optimal layout for the site depending on their device's screen size
-``` See hover states for all interactive elements on the page
-``` Navigate the slider using either their mouse/trackpad or keyboard
-``` Want some support on the challenge? Join our Slack community and ask questions in the #help channel.
+ View the optimal layout for the site depending on their device's screen size
+ See hover states for all interactive elements on the page
+ Navigate the slider using either their mouse/trackpad or keyboard
+ Want some support on the challenge? Join our Slack community and ask questions in the #help channel.
 
 ## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Screenshot
 
